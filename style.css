@@ -28,7 +28,8 @@ body {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
-    padding: 10px 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -41,7 +42,8 @@ body {
 input[type=text] {
     text-align: center;
     width: 25%;
-    padding: 12px 20px;
+    padding-top: 12;
+    padding-bottom: 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 2px solid red;
@@ -50,7 +52,8 @@ input[type=text] {
 input[type=password] {
     text-align: center;
     width: 25%;
-    padding: 12px 20px;
+    padding-top: 12px;
+    padding-bottom: 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 2px solid red;
