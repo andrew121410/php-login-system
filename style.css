@@ -6,17 +6,6 @@ body {
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
 }
-#clickmetosignupbox {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding-top: 10px; 
-    padding-right: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 10px;
-}
 #logintowebsitetext {
     font-style: normal;
     font-family: 'Courier New', Courier, monospace;
@@ -24,26 +13,14 @@ body {
     color:blue;
     margin-left:30px; 
 }
-#loginbox {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 10px;
-}
-
 .form {
     text-align:center;
 }
 input[type=text] {
     text-align: center;
     width: 25%;
-    padding-top: 12;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-right: 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 2px solid red;
@@ -52,10 +29,36 @@ input[type=text] {
 input[type=password] {
     text-align: center;
     width: 25%;
-    padding-top: 12px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-right: 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 2px solid red;
     border-radius: 4px;
+}
+#loginbox {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: gainsboro;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+}
+#clickmetosignupbox {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: gainsboro;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
 }
