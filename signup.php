@@ -34,7 +34,7 @@ header("Location: index.php");
         <br>
         <input placeholder="Password" name="password" type="password">
         <br>
-        <input name="signup" type="submit" value="Sign UP">
+        <input name="signup" type="submit" value="Sign UP" id="clickmetosignupbox">
     </form>
 
 </body>

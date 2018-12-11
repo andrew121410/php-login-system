@@ -34,6 +34,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
+
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -41,8 +42,10 @@
 <h1 id="logintowebsitetext">Login to website.</h1>
 
 <form class="form" action="index.php" enctype="multipart/form-data" method="post">
-<input name="username" type="text" autofocus="" placeholder="Username" id="usernamebox" /> <br /> 
-<input name="password" type="password" placeholder="Password" id="passwordbox" /><br> 
+<input name="username" type="text" autofocus="" placeholder="Username" id="usernamebox" />
+ <br /> 
+<input name="password" type="password" placeholder="Password" id="passwordbox" />
+<br> 
 <input name="login" type="submit" value="Login" id="loginbox" />
 <br>
 <br>
